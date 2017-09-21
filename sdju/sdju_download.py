@@ -10,8 +10,8 @@ class SdjuDownload(object):
     def __init__(self):
         self.sdju_login_url = "http://jwgl.sdju.edu.cn:81/jxfw_web/Home/Login/login"
         self.login_payload = {
-            'username': '141003330230',
-            'password': 'hujian12120+'
+            'username': 'xxxxxxxxxx',
+            'password': 'xxxxxxxxxx'
         }
         self.score_html_url = 'http://jwgl.sdju.edu.cn:81/jxfw_web/Home/Jxgl/xscjcx'
         self.session_request = requests.session()
